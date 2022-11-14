@@ -40,11 +40,11 @@ trio = ["trio (>=0.16)"]
 
 [[package]]
 name = "asgi-lifespan"
-version = "1.0.1"
+version = "2.0.0"
 description = "Programmatic startup/shutdown of ASGI apps."
 category = "dev"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 
 [package.dependencies]
 sniffio = "*"
@@ -1211,7 +1211,7 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "a577d69d6924f7044e0e0faac396f812020ee0a958f230eb827edfc24d34f975"
+content-hash = "f0341d03a0cba62bcff8b0b33f7d40db7068576904a748fc40d280df24022488"
 
 [metadata.files]
 aiosql = [
@@ -1227,8 +1227,8 @@ anyio = [
     {file = "anyio-3.5.0.tar.gz", hash = "sha256:a0aeffe2fb1fdf374a8e4b471444f0f3ac4fb9f5a5b542b48824475e0042a5a6"},
 ]
 asgi-lifespan = [
-    {file = "asgi-lifespan-1.0.1.tar.gz", hash = "sha256:9a33e7da2073c4764bc79bd6136501d6c42f60e3d2168ba71235e84122eadb7f"},
-    {file = "asgi_lifespan-1.0.1-py3-none-any.whl", hash = "sha256:9ea969dc5eb5cf08e52c08dce6f61afcadd28112e72d81c972b1d8eb8691ab53"},
+    {file = "asgi-lifespan-2.0.0.tar.gz", hash = "sha256:d46a31ff681e9edf1f776c9f61cf8fa6274cc66fca8cb4f11e940b1183e18842"},
+    {file = "asgi_lifespan-2.0.0-py3-none-any.whl", hash = "sha256:420582b1786b238d035244415dc11536acdbcb24762cba1c5e9bddc565960277"},
 ]
 astor = [
     {file = "astor-0.8.1-py2.py3-none-any.whl", hash = "sha256:070a54e890cefb5b3739d19f30f5a5ec840ffc9c50ffa7d23cc9fc1a38ebbfc5"},
